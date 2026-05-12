@@ -1,0 +1,180 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.info {
+    display: flex;
+    padding: 10px 80px;
+    justify-content: space-between;
+    background-color: #f6fbfa;
+}
+.info .info-left {
+    display: flex;
+    gap: 20px;
+    color: gray;
+}
+.info .info-rigth {
+    color: #0d9488;
+}
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    border-bottom: 1px solid #eeeff1;
+}
+.navigation-bar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navigation-bar .logo i {
+    font-size: 26px;
+    color: #0d9488;
+}
+.navigation-bar h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+.search-input {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #eeeff1;
+    border-radius: 5px;
+    padding: 2px 2px 2px 15px;
+}
+.search-input .submit{
+    background-color: #0d9488;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+input[type="text"] {
+    width: 100%;
+    border: none;
+    /* padding: 0px 40px; */
+    margin: 0px 40px;
+}
+.navigation-bar .nav-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+/* todo drop down list section  */
+.dropdown-list {
+    display: flex;
+    padding: 15px 0px 15px 80px;
+}
+.dropdown-list ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.dropdown-list ul li a{
+    text-decoration: none;
+    color: #5b5b5f;
+}
+.dropdown-list ul li a:hover{
+    color: #0d9488;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+
+.m1sct1{
+    border-radius: 50px;
+    background-color: rgb(236, 254, 255);
+    color: rgb(14, 145, 157);
+    padding: 10px;
+    width: 20%;
+}
+.m2sct1{
+    color: white;
+    background-color: rgb(13, 148, 136);
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+}
+.m2sct2{
+    border: 1px solid black;
+    padding: 10px;
+    width: 140px;
+}
+.dv2sct2{
+    display: flex;
+    gap: 10px;
+}
+.dv3sct3{
+    display: flex; 
+    gap: 20px;
+}
+.img1{
+    width: 10px;
+    height: 10px;
+}
+
+
+/* todo carousel section */
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4f7f6;
+    height: 50vh;
+    width: 100%;
+    padding: 40px 0px;
+}
+.carousel .card-item {
+    width: 20%;
+    border: 1px solid #d6d7d7;
+    border-radius: 10px;
+    position: relative;
+}
+.carousel .card-item .item-description{
+    padding: 10px 7px;
+    background-color: white;
+}
+.carousel .card-item img {
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.carousel .card-item p {
+    color: #5b5b5f;
+    font-size: 14px;
+}
+.carousel .card-item .carousel-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.carousel .card-item .carousel-price h2{
+    color: #0d9488;
+}
+.carousel .card-item .carousel-price h4{
+    text-decoration: line-through;
+    color: #5b5b5f;
+}
+.carousel .card-item .label-tag {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 8px;
+    border: 1px solid #5b5b5f;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.carousel .card-item .green-tag{
+    background-color: #e2f0ef;
+    color: #0d9488;
+    border: 1px solid #0d9488;
+}
