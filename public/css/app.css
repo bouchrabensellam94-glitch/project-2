@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.info {
+    display: flex;
+    padding: 10px 80px;
+    justify-content: space-between;
+    background-color: #f6fbfa;
+}
+.info .info-left {
+    display: flex;
+    gap: 20px;
+    color: gray;
+}
+.info .info-rigth {
+    color: #0d9488;
+}
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    border-bottom: 1px solid #eeeff1;
+}
+.navigation-bar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navigation-bar .logo i {
+    font-size: 26px;
+    color: #0d9488;
+}
+.navigation-bar h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+.search-input {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #eeeff1;
+    border-radius: 5px;
+    padding: 2px 2px 2px 15px;
+}
+.search-input .submit{
+    background-color: #0d9488;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+input[type="text"] {
+    width: 100%;
+    border: none;
+    /* padding: 0px 40px; */
+    margin: 0px 40px;
+}
+.navigation-bar .nav-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+/* todo drop down list section  */
+.dropdown-list {
+    display: flex;
+    padding: 15px 0px 15px 80px;
+}
+.dropdown-list ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.dropdown-list ul li a{
+    text-decoration: none;
+    color: #5b5b5f;
+}
+.dropdown-list ul li a:hover{
+    color: #0d9488;
+    text-decoration: underline;
+    font-weight: 600;
+}
+/* todo carousel section */
+
+#f4f7f6
+
